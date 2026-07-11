@@ -25,20 +25,29 @@ export default function Hero() {
           </p>
 
           <div className="mt-8 flex flex-wrap gap-4">
-            <a
-              href="/join"
-              className="rounded-lg bg-blue-600 px-8 py-3 font-semibold text-white transition hover:bg-blue-700"
-            >
-              Join SOSP
-            </a>
+  <a
+    href="/join"
+    className="rounded-lg bg-blue-600 px-8 py-3 font-semibold text-white transition hover:bg-blue-700"
+  >
+    Join SOSP
+  </a>
 
-            <a
-              href="/projects"
-              className="rounded-lg border border-gray-300 bg-white px-8 py-3 font-semibold text-gray-700 hover:bg-gray-100"
-            >
-              Explore Projects
-            </a>
-          </div>
+  <a
+    href="/projects"
+    className="rounded-lg border border-gray-300 bg-white px-8 py-3 font-semibold text-gray-700 hover:bg-gray-100"
+  >
+    Explore Projects
+  </a>
+
+  <a
+    href="https://github.com/StudentOpenSourceProgram"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="rounded-lg border border-blue-600 px-8 py-3 font-semibold text-blue-600 transition hover:bg-blue-50"
+  >
+    GitHub
+  </a>
+</div>
 
           <div className="mt-10 flex gap-10">
             <div>
@@ -75,3 +84,4 @@ export default function Hero() {
     </section>
   );
 }
+
