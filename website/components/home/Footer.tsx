@@ -1,41 +1,40 @@
 export default function Footer() {
   return (
-    <footer className="border-t border-gray-200 bg-gray-50 py-12">
-      <div className="mx-auto flex max-w-6xl flex-col gap-8 px-6 md:flex-row md:items-center md:justify-between">
+    <footer className="bg-gray-900 py-12 text-white">
+      <div className="mx-auto max-w-7xl px-6">
 
-        <div>
-          <h2 className="text-2xl font-bold text-blue-600">
-            SOSP
-          </h2>
+        <h2 className="text-3xl font-bold">Student Open Source Program</h2>
 
-          <p className="mt-2 max-w-sm text-gray-600">
-            Student Open Source Program helping developers learn,
-            contribute, and grow through open source.
+        <p className="mt-4 max-w-2xl text-gray-300">
+          Building a collaborative open-source community where students
+          learn, contribute, and grow through real-world projects.
+        </p>
+
+        <div className="mt-8 space-y-2">
+          <p>
+            GitHub:
+            <a
+              href="https://github.com/StudentOpenSourceProgram"
+              className="ml-2 text-blue-400 hover:underline"
+            >
+              StudentOpenSourceProgram
+            </a>
           </p>
+
+          <p>Email: nancysosp.org@gmail.com</p>
+
+          <p>Founder: Nancy Verma</p>
+
+          <p>Co-Founder: Satyam</p>
         </div>
 
+        <hr className="my-8 border-gray-700" />
 
-        <div className="flex gap-8 text-gray-600">
-          <a className="hover:text-blue-600">
-            GitHub
-          </a>
-
-          <a className="hover:text-blue-600">
-            Discord
-          </a>
-
-          <a className="hover:text-blue-600">
-            Contact
-          </a>
-        </div>
+        <p className="text-gray-400">
+          © 2026 Student Open Source Program (SOSP). All rights reserved.
+        </p>
 
       </div>
-
-
-      <div className="mx-auto mt-8 max-w-6xl border-t border-gray-200 px-6 pt-6 text-sm text-gray-500">
-        © {new Date().getFullYear()} SOSP. All rights reserved.
-      </div>
-
     </footer>
   );
 }

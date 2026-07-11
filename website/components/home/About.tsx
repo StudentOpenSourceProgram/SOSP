@@ -1,52 +1,61 @@
 export default function About() {
     return (
-        <section id="about" className="bg-gray-50 py-20">
-            <div className="mx-auto max-w-6xl px-6">
-                <div className="grid items-center gap-12 md:grid-cols-2">
+        <section
+            id="about"
+            className="bg-white px-6 py-24"
+        >
+            <div className="mx-auto max-w-7xl">
 
-                    <div>
-                        <h2 className="text-4xl font-bold text-gray-900">
-                            What is SOSP?
-                        </h2>
+                <div className="text-center">
+                    <h2 className="text-4xl font-bold text-gray-900">
+                        About SOSP
+                    </h2>
 
-                        <p className="mt-6 text-lg leading-relaxed text-gray-600">
-                            SOSP (Student Open Source Program) is a student-driven open
-                            source initiative where developers collaborate, contribute to
-                            real-world projects, learn from mentors, and build impactful
-                            software together.
-                        </p>
+                    <p className="mx-auto mt-5 max-w-3xl text-lg text-gray-600">
+                        Student Open Source Program (SOSP) is a student-led initiative
+                        created to help aspiring developers gain real-world open source
+                        experience. We believe that every student should have the opportunity
+                        to learn, collaborate, and contribute to impactful software projects.
+                    </p>
+                </div>
 
-                        <p className="mt-4 text-lg leading-relaxed text-gray-600">
-                            Our mission is to help students move from learning code to
-                            building meaningful open source contributions.
+                <div className="mt-16 grid gap-8 md:grid-cols-3">
+
+                    <div className="rounded-2xl border p-8 shadow-sm transition hover:-translate-y-1 hover:shadow-lg">
+                        <h3 className="mb-4 text-2xl font-bold text-blue-600">
+                            Our Mission
+                        </h3>
+
+                        <p className="text-gray-600">
+                            To provide mentorship, real-world projects, and a collaborative
+                            environment where students can become confident open source
+                            contributors.
                         </p>
                     </div>
 
-
-                    <div className="rounded-2xl border border-gray-200 bg-white p-8 shadow-sm">
-
-                        <h3 className="text-2xl font-semibold text-gray-900">
-                            Why join SOSP?
+                    <div className="rounded-2xl border p-8 shadow-sm transition hover:-translate-y-1 hover:shadow-lg">
+                        <h3 className="mb-4 text-2xl font-bold text-indigo-600">
+                            Our Vision
                         </h3>
 
-                        <ul className="mt-6 space-y-4 text-gray-600">
-                            <li>
-                                ✓ Contribute to real-world projects
-                            </li>
+                        <p className="text-gray-600">
+                            To build one of the most trusted student-led open source
+                            communities that empowers developers across the world.
+                        </p>
+                    </div>
 
-                            <li>
-                                ✓ Learn from experienced mentors
-                            </li>
+                    <div className="rounded-2xl border p-8 shadow-sm transition hover:-translate-y-1 hover:shadow-lg">
+                        <h3 className="mb-4 text-2xl font-bold text-purple-600">
+                            Our Values
+                        </h3>
 
-                            <li>
-                                ✓ Build your developer portfolio
-                            </li>
-
-                            <li>
-                                ✓ Connect with open source community
-                            </li>
+                        <ul className="space-y-2 text-gray-600">
+                            <li>• Learn by Building</li>
+                            <li>• Collaboration First</li>
+                            <li>• Open Knowledge</li>
+                            <li>• Inclusive Community</li>
+                            <li>• Continuous Growth</li>
                         </ul>
-
                     </div>
 
                 </div>

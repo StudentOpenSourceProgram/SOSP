@@ -1,61 +1,76 @@
-const features = [
-    {
-        title: "Real Open Source Projects",
-        description:
-            "Work on meaningful projects and gain practical development experience.",
-    },
-    {
-        title: "Mentorship",
-        description:
-            "Learn from experienced developers and improve your technical skills.",
-    },
-    {
-        title: "Community",
-        description:
-            "Connect with developers, contributors, and open source enthusiasts.",
-    },
-    {
-        title: "Career Growth",
-        description:
-            "Build your GitHub profile, portfolio, and industry-ready skills.",
-    },
-];
-
 export default function Features() {
-    return (
-        <section className="bg-white py-20">
-            <div className="mx-auto max-w-6xl px-6">
+    const features = [
+        {
+            title: "Real Open Source Projects",
+            description:
+                "Work on real repositories and gain practical development experience.",
+            icon: "💻",
+        },
+        {
+            title: "Mentorship",
+            description:
+                "Learn from experienced contributors through guidance and code reviews.",
+            icon: "🧑‍🏫",
+        },
+        {
+            title: "Community",
+            description:
+                "Connect with students who are passionate about building and learning.",
+            icon: "🤝",
+        },
+        {
+            title: "Skill Development",
+            description:
+                "Improve Git, GitHub, teamwork, communication, and software engineering skills.",
+            icon: "📈",
+        },
+        {
+            title: "Portfolio Building",
+            description:
+                "Create meaningful contributions that strengthen your GitHub profile and resume.",
+            icon: "🚀",
+        },
+        {
+            title: "Career Growth",
+            description:
+                "Build the experience and confidence needed for internships and future opportunities.",
+            icon: "🌟",
+        },
+    ];
 
+    return (
+        <section className="bg-gray-50 px-6 py-24">
+            <div className="mx-auto max-w-7xl">
                 <div className="text-center">
                     <h2 className="text-4xl font-bold text-gray-900">
-                        Why Choose SOSP?
+                        Why Join SOSP?
                     </h2>
 
-                    <p className="mt-4 text-gray-600">
-                        Everything you need to start your open source journey.
+                    <p className="mx-auto mt-4 max-w-3xl text-lg text-gray-600">
+                        SOSP is designed to help students move beyond tutorials by
+                        contributing to real projects, collaborating with others, and
+                        developing skills valued in the software industry.
                     </p>
                 </div>
 
-
-                <div className="mt-12 grid gap-8 md:grid-cols-2 lg:grid-cols-4">
-
+                <div className="mt-16 grid gap-8 md:grid-cols-2 lg:grid-cols-3">
                     {features.map((feature) => (
                         <div
                             key={feature.title}
-                            className="rounded-xl border border-gray-200 p-6 transition hover:-translate-y-1 hover:shadow-lg"
+                            className="rounded-2xl border bg-white p-8 shadow-sm transition duration-300 hover:-translate-y-2 hover:shadow-xl"
                         >
-                            <h3 className="text-xl font-semibold text-gray-900">
+                            <div className="mb-4 text-5xl">{feature.icon}</div>
+
+                            <h3 className="mb-3 text-2xl font-bold">
                                 {feature.title}
                             </h3>
 
-                            <p className="mt-3 text-gray-600">
+                            <p className="text-gray-600">
                                 {feature.description}
                             </p>
                         </div>
                     ))}
-
                 </div>
-
             </div>
         </section>
     );

@@ -1,61 +1,55 @@
-const questions = [
-  {
-    question: "What is SOSP?",
-    answer:
-      "SOSP (Student Open Source Program) is a student-driven initiative that helps developers contribute to real-world open source projects.",
-  },
-  {
-    question: "Who can participate?",
-    answer:
-      "Any student interested in learning, coding, and contributing to open source can participate.",
-  },
-  {
-    question: "Do I need previous open source experience?",
-    answer:
-      "No. Beginners can start with guidance from mentors and gradually improve their skills.",
-  },
-  {
-    question: "Will contributors get certificates?",
-    answer:
-      "Yes, contributors who successfully complete the program requirements will receive recognition.",
-  },
-];
-
 export default function FAQ() {
+  const faqs = [
+    {
+      question: "Who can apply for SOSP?",
+      answer:
+        "Any student passionate about learning and contributing to open source can apply.",
+    },
+    {
+      question: "Is SOSP free?",
+      answer:
+        "Yes. Participation in the Student Open Source Program is completely free.",
+    },
+    {
+      question: "Do I need prior open source experience?",
+      answer:
+        "No. Beginners are welcome. We'll help you learn Git, GitHub, and the contribution workflow.",
+    },
+    {
+      question: "Will I get mentorship?",
+      answer:
+        "Yes. Participants receive guidance from mentors and maintainers throughout the program.",
+    },
+    {
+      question: "Will I receive a certificate?",
+      answer:
+        "Participants who successfully complete the program may receive recognition based on the program guidelines.",
+    },
+    {
+      question: "How do I join?",
+      answer:
+        "Simply fill out the Join form on the website once applications open.",
+    },
+  ];
+
   return (
-    <section id="faq" className="bg-white py-20">
-      <div className="mx-auto max-w-5xl px-6">
-
-        <div className="text-center">
-          <h2 className="text-4xl font-bold text-gray-900">
-            Frequently Asked Questions
-          </h2>
-
-          <p className="mt-4 text-gray-600">
-            Everything you need to know about SOSP.
-          </p>
-        </div>
-
+    <section id="faq" className="bg-gray-50 py-24 px-6">
+      <div className="mx-auto max-w-5xl">
+        <h2 className="text-center text-4xl font-bold">
+          Frequently Asked Questions
+        </h2>
 
         <div className="mt-12 space-y-6">
-
-          {questions.map((item) => (
+          {faqs.map((faq) => (
             <div
-              key={item.question}
-              className="rounded-xl border border-gray-200 p-6"
+              key={faq.question}
+              className="rounded-xl border bg-white p-6 shadow-sm"
             >
-              <h3 className="text-xl font-semibold text-gray-900">
-                {item.question}
-              </h3>
-
-              <p className="mt-3 text-gray-600">
-                {item.answer}
-              </p>
+              <h3 className="text-xl font-semibold">{faq.question}</h3>
+              <p className="mt-3 text-gray-600">{faq.answer}</p>
             </div>
           ))}
-
         </div>
-
       </div>
     </section>
   );
