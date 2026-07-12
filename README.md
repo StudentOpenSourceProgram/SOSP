@@ -1,23 +1,25 @@
 # Student Open Source Program (SOSP)
 
-Welcome to the Student Open Source Program (SOSP).
-
-SOSP is a student-led initiative that empowers beginners to contribute to real-world open source projects through mentorship, collaboration, and community.
-
-## Vision
-
-To build one of the most trusted student open source communities.
+SOSP is a student-driven open source initiative that helps students learn, collaborate and contribute to real-world projects.
 
 ## Mission
 
-Provide mentorship, real-world projects, and opportunities for students to become successful open source contributors.
+Our mission is to create opportunities for students to build skills through open source collaboration.
 
-## Current Status
+## What We Do
 
-🚧 Under Development
+- Open source projects
+- Mentorship programs
+- Developer community
+- Learning resources
 
-Founder:
-Nancy Verma
+## How to Participate
 
-Co-Founder:
-Satyam
+1. Explore projects
+2. Pick an issue
+3. Fork the repository
+4. Create a pull request
+
+## Join SOSP
+
+Start contributing and grow with the community.
