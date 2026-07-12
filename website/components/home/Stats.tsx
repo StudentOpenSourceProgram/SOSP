@@ -1,41 +1,41 @@
 const stats = [
-    {
-        number: "500+",
-        label: "Contributors",
-    },
-    {
-        number: "50+",
-        label: "Mentors",
-    },
-    {
-        number: "100+",
-        label: "Projects",
-    },
-    {
-        number: "10K+",
-        label: "GitHub Contributions",
-    },
+  {
+    number: "500+",
+    title: "Students"
+  },
+  {
+    number: "50+",
+    title: "Contributors"
+  },
+  {
+    number: "10+",
+    title: "Projects"
+  },
+  {
+    number: "5+",
+    title: "Mentors"
+  }
 ];
 
 export default function Stats() {
-    return (
-        <section className="bg-white py-16">
-            <div className="mx-auto grid max-w-6xl grid-cols-2 gap-8 px-6 md:grid-cols-4">
-                {stats.map((item) => (
-                    <div
-                        key={item.label}
-                        className="rounded-xl border border-gray-200 p-6 text-center shadow-sm transition hover:shadow-lg"
-                    >
-                        <h2 className="text-4xl font-bold text-blue-600">
-                            {item.number}
-                        </h2>
+  return (
+    <section className="py-16">
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+        {stats.map((item) => (
+          <div
+            key={item.title}
+            className="border rounded-xl p-6 text-center"
+          >
+            <h2 className="text-3xl font-bold">
+              {item.number}
+            </h2>
 
-                        <p className="mt-2 text-gray-600">
-                            {item.label}
-                        </p>
-                    </div>
-                ))}
-            </div>
-        </section>
-    );
+            <p className="text-gray-500 mt-2">
+              {item.title}
+            </p>
+          </div>
+        ))}
+      </div>
+    </section>
+  );
 }
