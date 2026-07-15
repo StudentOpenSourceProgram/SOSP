@@ -19,6 +19,10 @@ export default function Navbar() {
     {
       name: "Contact",
       path: "/contact"
+    },
+    {
+      name: "Submit Project",
+      path: "/submit-project"
     }
   ];
 
@@ -58,7 +62,7 @@ export default function Navbar() {
         </ul>
 
 
-        {/* Button */}
+        {/* Join Button */}
         <Link
           href="/join"
           className="rounded-lg bg-blue-600 px-5 py-2 text-white transition hover:bg-blue-700"
