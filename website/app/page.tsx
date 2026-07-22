@@ -1,27 +1,48 @@
-import Navbar from "@/components/layout/Navbar";
-import Hero from "@/components/home/Hero";
-import Stats from "@/components/home/Stats";
-import About from "@/components/home/About";
-import Features from "@/components/home/Features";
-import Timeline from "@/components/home/Timeline";
-import Sponsors from "@/components/home/Sponsors";
-import FAQ from "@/components/home/FAQ";
-import CTA from "@/components/home/CTA";
-import Footer from "@/components/home/Footer";
+export default function Hero(){
 
-export default function Home() {
-  return (
-      <>
-        <Navbar />
-        <Hero />
-        <Stats />
-        <About />
-        <Features />
-        <Timeline />
-        <Sponsors />
-        <FAQ />
-        <CTA />
-        <Footer />
-      </>
-      );
+return (
+
+<section className="min-h-[80vh] flex flex-col justify-center items-center text-center px-6">
+
+
+<h1 className="text-5xl md:text-6xl font-bold">
+Student Open Source Program
+</h1>
+
+
+<p className="mt-6 text-xl text-gray-600 max-w-3xl">
+
+A student-driven open source ecosystem where developers
+learn, collaborate and build real-world projects.
+
+</p>
+
+
+<div className="flex gap-5 mt-10">
+
+
+<a
+href="/join"
+className="bg-black text-white px-8 py-3 rounded-lg"
+>
+Join SOSP
+</a>
+
+
+
+<a
+href="/projects"
+className="border px-8 py-3 rounded-lg"
+>
+Explore Projects
+</a>
+
+
+</div>
+
+
+</section>
+
+)
+
 }

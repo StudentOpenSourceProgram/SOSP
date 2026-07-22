@@ -1,17 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
-<url><loc>https://sosp-pink.vercel.app</loc><lastmod>2026-07-22T06:38:57.369Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://sosp-pink.vercel.app/about</loc><lastmod>2026-07-22T06:38:57.370Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://sosp-pink.vercel.app/admin</loc><lastmod>2026-07-22T06:38:57.370Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://sosp-pink.vercel.app/admin/applications</loc><lastmod>2026-07-22T06:38:57.370Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://sosp-pink.vercel.app/admin/contributors</loc><lastmod>2026-07-22T06:38:57.370Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://sosp-pink.vercel.app/admin/project admin</loc><lastmod>2026-07-22T06:38:57.370Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://sosp-pink.vercel.app/apply</loc><lastmod>2026-07-22T06:38:57.370Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://sosp-pink.vercel.app/contacts</loc><lastmod>2026-07-22T06:38:57.370Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://sosp-pink.vercel.app/join</loc><lastmod>2026-07-22T06:38:57.370Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://sosp-pink.vercel.app/login</loc><lastmod>2026-07-22T06:38:57.370Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://sosp-pink.vercel.app/programs</loc><lastmod>2026-07-22T06:38:57.370Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://sosp-pink.vercel.app/projects</loc><lastmod>2026-07-22T06:38:57.370Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://sosp-pink.vercel.app/submit-project</loc><lastmod>2026-07-22T06:38:57.370Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://sosp-pink.vercel.app/team</loc><lastmod>2026-07-22T06:38:57.370Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://sosp-pink.vercel.app</loc><lastmod>2026-07-22T07:22:37.170Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://sosp-pink.vercel.app/about</loc><lastmod>2026-07-22T07:22:37.172Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://sosp-pink.vercel.app/admin</loc><lastmod>2026-07-22T07:22:37.172Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://sosp-pink.vercel.app/admin/applications</loc><lastmod>2026-07-22T07:22:37.172Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://sosp-pink.vercel.app/admin/contributors</loc><lastmod>2026-07-22T07:22:37.172Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://sosp-pink.vercel.app/admin/project admin</loc><lastmod>2026-07-22T07:22:37.172Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://sosp-pink.vercel.app/apply</loc><lastmod>2026-07-22T07:22:37.172Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://sosp-pink.vercel.app/community</loc><lastmod>2026-07-22T07:22:37.172Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://sosp-pink.vercel.app/contacts</loc><lastmod>2026-07-22T07:22:37.172Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://sosp-pink.vercel.app/Dashboard</loc><lastmod>2026-07-22T07:22:37.172Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://sosp-pink.vercel.app/join</loc><lastmod>2026-07-22T07:22:37.172Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://sosp-pink.vercel.app/journey</loc><lastmod>2026-07-22T07:22:37.172Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://sosp-pink.vercel.app/leadetboard</loc><lastmod>2026-07-22T07:22:37.172Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://sosp-pink.vercel.app/login</loc><lastmod>2026-07-22T07:22:37.172Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://sosp-pink.vercel.app/mentors</loc><lastmod>2026-07-22T07:22:37.172Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://sosp-pink.vercel.app/programs</loc><lastmod>2026-07-22T07:22:37.172Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://sosp-pink.vercel.app/projects</loc><lastmod>2026-07-22T07:22:37.172Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://sosp-pink.vercel.app/sponsors</loc><lastmod>2026-07-22T07:22:37.172Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://sosp-pink.vercel.app/submit-project</loc><lastmod>2026-07-22T07:22:37.172Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://sosp-pink.vercel.app/team</loc><lastmod>2026-07-22T07:22:37.172Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://sosp-pink.vercel.app/tracks</loc><lastmod>2026-07-22T07:22:37.172Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
 </urlset>

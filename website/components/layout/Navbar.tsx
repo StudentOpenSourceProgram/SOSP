@@ -70,6 +70,30 @@ export default function Navbar() {
           Join Now
         </Link>
 
+        <Link href="/programs">
+Programs
+</Link>
+
+<Link href="/projects">
+Projects
+</Link>
+
+<Link href="/mentors">
+Mentors
+</Link>
+
+<Link href="/sponsors">
+Sponsors
+</Link>
+
+<Link href="/leaderboard">
+Leaderboard
+</Link>
+
+<Link href="/community">
+Community
+</Link>
+
       </div>
     </nav>
   );

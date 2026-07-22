@@ -1,83 +1,75 @@
-export default function Timeline() {
-  const timeline = [
-    {
-      step: "01",
-      title: "Registration",
-      description:
-        "Students submit their applications to join the Student Open Source Program.",
-    },
-    {
-      step: "02",
-      title: "Selection",
-      description:
-        "Applications are reviewed and selected participants receive an invitation.",
-    },
-    {
-      step: "03",
-      title: "Onboarding",
-      description:
-        "Participants learn Git, GitHub, contribution workflow, and project guidelines.",
-    },
-    {
-      step: "04",
-      title: "Project Contribution",
-      description:
-        "Students work on open source projects with guidance from mentors and maintainers.",
-    },
-    {
-      step: "05",
-      title: "Weekly Mentorship",
-      description:
-        "Regular sessions, code reviews, and community discussions help participants grow.",
-    },
-    {
-      step: "06",
-      title: "Program Completion",
-      description:
-        "Contributors showcase their work, receive recognition, and continue their open source journey.",
-    },
-  ];
+export default function Timeline(){
 
-  return (
-    <section
-      id="timeline"
-      className="bg-white py-24 px-6"
-    >
-      <div className="mx-auto max-w-7xl">
+const weeks=[
+{
+week:"Week 1",
+title:"Explore & Setup",
+desc:"Choose projects, understand codebase and setup environment."
+},
+{
+week:"Week 2",
+title:"Build & Contribute",
+desc:"Work on features and submit contributions."
+},
+{
+week:"Week 3",
+title:"Improve & Collaborate",
+desc:"Code reviews, discussions and improvements."
+},
+{
+week:"Week 4",
+title:"Showcase",
+desc:"Final evaluation and contribution recognition."
+}
+];
 
-        <div className="text-center">
-          <h2 className="text-4xl font-bold">
-            Program Timeline
-          </h2>
 
-          <p className="mt-4 text-lg text-gray-600">
-            Here's how the Student Open Source Program works.
-          </p>
-        </div>
+return (
 
-        <div className="mt-16 grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+<section className="px-6 py-20">
 
-          {timeline.map((item) => (
-            <div
-              key={item.step}
-              className="rounded-2xl border p-8 shadow-sm transition hover:-translate-y-2 hover:shadow-xl"
-            >
-              <div className="mb-4 flex h-14 w-14 items-center justify-center rounded-full bg-blue-600 text-2xl font-bold text-white">
-                {item.step}
-              </div>
+<div className="max-w-5xl mx-auto">
 
-              <h3 className="mb-3 text-2xl font-bold">
-                {item.title}
-              </h3>
 
-              <p className="text-gray-600">
-                {item.description}
-              </p>
-            </div>
-          ))}
+<h2 className="text-4xl font-bold">
+Program Timeline
+</h2>
 
-        </div>
-      </div>
-    </section>
-  );
+
+<div className="mt-10 space-y-5">
+
+
+{
+weeks.map(item=>(
+
+<div
+key={item.week}
+className="border rounded-xl p-6"
+>
+
+<h3 className="text-xl font-bold">
+{item.week}: {item.title}
+</h3>
+
+
+<p className="mt-2 text-gray-600">
+{item.desc}
+</p>
+
+
+</div>
+
+))
+}
+
+
+</div>
+
+
+</div>
+
+</section>
+
+)
+
 }
